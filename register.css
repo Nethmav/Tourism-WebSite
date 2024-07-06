@@ -1,0 +1,146 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.header
+{
+	height: 100vh;
+	width: 100%;
+	background: rgba(0,0,100,0.1);
+}
+
+main 
+{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+
+.logo
+{
+	margin: 20px;
+	height: 80px;
+}
+
+ul
+{
+	float: right;
+	justify-content: center;
+	list-style-type: none;
+	margin-top:50px ;
+}
+
+ul li
+{
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.06s ease;
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+
+}
+
+
+
+
+
+
+
+body
+{
+	font-family: "open sans";
+	color: #fff;
+}
+section
+{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: url("./40.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.form-container
+{
+	position: absolute;
+	top: 12%;
+	left: 37%;
+	transform: translate(.50%,.50%);
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	width: 300px;
+	padding: 50px 30px;
+	border-radius: 20px;
+	box-shadow:7px 7px 60px #000;
+}
+h1
+{
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.control input
+{
+	width: 100%;
+	display: block;
+	padding: 10px;
+	color: #222;
+	border: none;
+	outline: none;
+	margin: 1em 0;
+}
+
+
+
+.control input[type="submit"]
+{
+	background: black;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	opacity: .8;
+	transition: opacity .3s ease;
+}
+
+.control input[type="submit"]:hover
+{
+	opacity: 1;
+
+}
+
+
+
+.link
+{
+	text-align: center;
+
+}
+
+.link a
+{
+	text-decoration:none;
+	color: #fff;
+	opacity: .6;
+	transition: .3s ease;
+}
+
+.link a:hover
+{
+	opacity: 1;
+}
